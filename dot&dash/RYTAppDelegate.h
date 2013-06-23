@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class RYTViewController;
 @interface RYTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) RYTViewController *switchController;
 @end

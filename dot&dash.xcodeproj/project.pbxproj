@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7620BE1E164B7757005B3838 /* cipherBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620BE1D164B7757005B3838 /* cipherBg.png */; };
+		7620BE21164B800D005B3838 /* cipherBt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620BE1F164B800C005B3838 /* cipherBt.png */; };
+		7620BE22164B800D005B3838 /* smallBt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620BE20164B800D005B3838 /* smallBt.png */; };
+		7620BE24164BBC7A005B3838 /* pageBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620BE23164BBC7A005B3838 /* pageBg.png */; };
+		7620BE26164BC422005B3838 /* pageBg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620BE25164BC422005B3838 /* pageBg2.png */; };
+		7620BE40164BCE0B005B3838 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620BE3C164BCE0B005B3838 /* Default.png */; };
+		7620BE41164BCE0B005B3838 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620BE3D164BCE0B005B3838 /* Default@2x.png */; };
+		7620BE42164BCE0B005B3838 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620BE3E164BCE0B005B3838 /* icon.png */; };
+		7620BE43164BCE0B005B3838 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7620BE3F164BCE0B005B3838 /* icon@2x.png */; };
 		76550D1B164A990700BC0696 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76550D1A164A990700BC0696 /* UIKit.framework */; };
 		76550D1D164A990700BC0696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76550D1C164A990700BC0696 /* Foundation.framework */; };
 		76550D1F164A990700BC0696 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76550D1E164A990700BC0696 /* CoreGraphics.framework */; };
 		76550D25164A990700BC0696 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76550D23164A990700BC0696 /* InfoPlist.strings */; };
 		76550D27164A990700BC0696 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76550D26164A990700BC0696 /* main.m */; };
 		76550D2B164A990700BC0696 /* RYTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76550D2A164A990700BC0696 /* RYTAppDelegate.m */; };
+		76550D39164A99ED00BC0696 /* RYTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76550D37164A99ED00BC0696 /* RYTViewController.m */; };
+		76550D3A164A99ED00BC0696 /* RYTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76550D38164A99ED00BC0696 /* RYTViewController.xib */; };
+		76550D3E164A9D3B00BC0696 /* RYTPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76550D3C164A9D3B00BC0696 /* RYTPageView.m */; };
+		76550D3F164A9D3B00BC0696 /* RYTPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76550D3D164A9D3B00BC0696 /* RYTPageView.xib */; };
+		76550D43164A9D8700BC0696 /* RYTCipherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76550D41164A9D8700BC0696 /* RYTCipherView.m */; };
+		76550D44164A9D8700BC0696 /* RYTCipherView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76550D42164A9D8700BC0696 /* RYTCipherView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7620BE1D164B7757005B3838 /* cipherBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cipherBg.png; sourceTree = "<group>"; };
+		7620BE1F164B800C005B3838 /* cipherBt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cipherBt.png; sourceTree = "<group>"; };
+		7620BE20164B800D005B3838 /* smallBt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallBt.png; sourceTree = "<group>"; };
+		7620BE23164BBC7A005B3838 /* pageBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pageBg.png; sourceTree = "<group>"; };
+		7620BE25164BC422005B3838 /* pageBg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pageBg2.png; sourceTree = "<group>"; };
+		7620BE3C164BCE0B005B3838 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7620BE3D164BCE0B005B3838 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7620BE3E164BCE0B005B3838 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7620BE3F164BCE0B005B3838 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		76550D16164A990700BC0696 /* dot&dash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dot&dash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76550D1A164A990700BC0696 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		76550D1C164A990700BC0696 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -26,6 +50,15 @@
 		76550D28164A990700BC0696 /* dot&dash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dot&dash-Prefix.pch"; sourceTree = "<group>"; };
 		76550D29164A990700BC0696 /* RYTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYTAppDelegate.h; sourceTree = "<group>"; };
 		76550D2A164A990700BC0696 /* RYTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYTAppDelegate.m; sourceTree = "<group>"; };
+		76550D36164A99ED00BC0696 /* RYTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTViewController.h; sourceTree = "<group>"; };
+		76550D37164A99ED00BC0696 /* RYTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTViewController.m; sourceTree = "<group>"; };
+		76550D38164A99ED00BC0696 /* RYTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RYTViewController.xib; sourceTree = "<group>"; };
+		76550D3B164A9D3B00BC0696 /* RYTPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTPageView.h; sourceTree = "<group>"; };
+		76550D3C164A9D3B00BC0696 /* RYTPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTPageView.m; sourceTree = "<group>"; };
+		76550D3D164A9D3B00BC0696 /* RYTPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RYTPageView.xib; sourceTree = "<group>"; };
+		76550D40164A9D8700BC0696 /* RYTCipherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTCipherView.h; sourceTree = "<group>"; };
+		76550D41164A9D8700BC0696 /* RYTCipherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTCipherView.m; sourceTree = "<group>"; };
+		76550D42164A9D8700BC0696 /* RYTCipherView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RYTCipherView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +75,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7620BE1C164B7757005B3838 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				7620BE3C164BCE0B005B3838 /* Default.png */,
+				7620BE3D164BCE0B005B3838 /* Default@2x.png */,
+				7620BE3E164BCE0B005B3838 /* icon.png */,
+				7620BE3F164BCE0B005B3838 /* icon@2x.png */,
+				7620BE25164BC422005B3838 /* pageBg2.png */,
+				7620BE23164BBC7A005B3838 /* pageBg.png */,
+				7620BE1F164B800C005B3838 /* cipherBt.png */,
+				7620BE20164B800D005B3838 /* smallBt.png */,
+				7620BE1D164B7757005B3838 /* cipherBg.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		76550D0B164A990700BC0696 = {
 			isa = PBXGroup;
 			children = (
@@ -72,9 +121,19 @@
 		76550D20164A990700BC0696 /* dot&dash */ = {
 			isa = PBXGroup;
 			children = (
+				7620BE1C164B7757005B3838 /* Image */,
+				76550D21164A990700BC0696 /* Supporting Files */,
 				76550D29164A990700BC0696 /* RYTAppDelegate.h */,
 				76550D2A164A990700BC0696 /* RYTAppDelegate.m */,
-				76550D21164A990700BC0696 /* Supporting Files */,
+				76550D36164A99ED00BC0696 /* RYTViewController.h */,
+				76550D37164A99ED00BC0696 /* RYTViewController.m */,
+				76550D38164A99ED00BC0696 /* RYTViewController.xib */,
+				76550D3B164A9D3B00BC0696 /* RYTPageView.h */,
+				76550D3C164A9D3B00BC0696 /* RYTPageView.m */,
+				76550D3D164A9D3B00BC0696 /* RYTPageView.xib */,
+				76550D40164A9D8700BC0696 /* RYTCipherView.h */,
+				76550D41164A9D8700BC0696 /* RYTCipherView.m */,
+				76550D42164A9D8700BC0696 /* RYTCipherView.xib */,
 			);
 			path = "dot&dash";
 			sourceTree = "<group>";
@@ -143,6 +202,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				76550D25164A990700BC0696 /* InfoPlist.strings in Resources */,
+				76550D3A164A99ED00BC0696 /* RYTViewController.xib in Resources */,
+				76550D3F164A9D3B00BC0696 /* RYTPageView.xib in Resources */,
+				76550D44164A9D8700BC0696 /* RYTCipherView.xib in Resources */,
+				7620BE1E164B7757005B3838 /* cipherBg.png in Resources */,
+				7620BE21164B800D005B3838 /* cipherBt.png in Resources */,
+				7620BE22164B800D005B3838 /* smallBt.png in Resources */,
+				7620BE24164BBC7A005B3838 /* pageBg.png in Resources */,
+				7620BE26164BC422005B3838 /* pageBg2.png in Resources */,
+				7620BE40164BCE0B005B3838 /* Default.png in Resources */,
+				7620BE41164BCE0B005B3838 /* Default@2x.png in Resources */,
+				7620BE42164BCE0B005B3838 /* icon.png in Resources */,
+				7620BE43164BCE0B005B3838 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +226,9 @@
 			files = (
 				76550D27164A990700BC0696 /* main.m in Sources */,
 				76550D2B164A990700BC0696 /* RYTAppDelegate.m in Sources */,
+				76550D39164A99ED00BC0696 /* RYTViewController.m in Sources */,
+				76550D3E164A9D3B00BC0696 /* RYTPageView.m in Sources */,
+				76550D43164A9D8700BC0696 /* RYTCipherView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +336,7 @@
 				76550D30164A990700BC0696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

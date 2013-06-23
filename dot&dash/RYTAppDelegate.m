@@ -7,13 +7,20 @@
 //
 
 #import "RYTAppDelegate.h"
-
+#import "RYTViewController.h"
 @implementation RYTAppDelegate
-
+@synthesize window = _window;
+@synthesize switchController;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.switchController = [[RYTViewController alloc] initWithNibName:@"RYTViewController" bundle:nil];
+    UIView *switchView = self.switchController.view;
+    CGRect switchViewFrame = switchView.frame;
+    switchViewFrame.origin.y += [UIApplication sharedApplication].statusBarFrame.size.height;
+    switchView.frame = switchViewFrame;
+    [self.window addSubview:switchView];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
